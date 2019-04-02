@@ -1,6 +1,85 @@
 $(document).ready(function () {
 
 
+    $('.b-prepack-next').on("click", function() {
+        $('.b-prepack-slider__big').slick("slickNext"); 
+    })
+    $('.b-prepack-prev').on("click", function() {
+        $('.b-prepack-slider__big').slick("slickPrev"); 
+    })
+$('.b-prepack-slider__big').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: false,
+  arrows: false,
+  asNavFor: '.b-prepack-slider__pager',
+  responsive: [
+  {
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
+});
+$('.b-prepack-slider__pager').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  arrows: false,
+  dots: false,
+  asNavFor: '.b-prepack-slider__big',
+  focusOnSelect: true,
+  variableWidth: true,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+        variableWidth: false,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+
+
 $(".b-nav a").click(function (event) {
     event.preventDefault();
     var id  = $(this).attr('href'),
