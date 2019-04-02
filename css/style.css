@@ -627,3 +627,109 @@ textarea{
 	background: #bb1924;
 	transform: rotate(-45deg);
 }
+
+
+/* -------------- page offers -------------- */
+.b-offers{
+	padding: 100px 0 200px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../images/b-offers-bg.jpg) no-repeat left;
+}
+.b-title{
+	text-align: center;
+	margin: 0 0 100px 0;
+	padding: 0 0 20px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.b-title:after{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	content: "";
+	width: 30px;
+	height: 8px;
+	background: #eb212d;	
+	margin: 0 0 0 -15px;
+}
+.b-title-item{
+	color: #262626;
+	font-family: 'Russo One', sans-serif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 400;
+	text-transform: none;
+	margin: 0;
+}
+.b-offers-content > .row{
+	justify-content: center;
+}
+.b-offers-item{
+	position: relative;
+	height: 100%;
+	transition: 0.3s;
+}
+.b-offers-item:before{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	box-shadow: 0 10px 25px rgba(38, 38, 38, 0.1);
+	z-index: 1;	
+	transition: 0.3s;
+}
+.b-offers-item__img{
+	position: relative;
+	z-index: 2;
+	margin: 0 0 35px 0;
+}
+.b-offers-item__img img{
+	margin: 0 auto 0;
+}
+.b-offers-item__content{
+	position: relative;
+	z-index: 2;
+	padding: 0 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+.b-offers-item__content b{
+	display: block;
+	color: #262626;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;	
+	margin: 0 0 13px 0;
+	transition: 0.3s;
+}
+.b-offers-item__content p{
+	color: #646464;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0;
+	transition: 0.3s;
+}
+.b-offers-item:hover:before{
+	background: #bb1924;
+	box-shadow: 0 5px 25px rgba(235, 33, 45, 0.3);
+	transition: 0.3s;
+	height: 105%;
+}
+.b-offers-item:hover .b-offers-item__content b{
+	color: #ffffff;
+	transition: 0.3s;
+}
+.b-offers-item:hover .b-offers-item__content p{
+	color: #ffffff;
+	transition: 0.3s;
+}
