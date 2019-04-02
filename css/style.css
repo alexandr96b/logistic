@@ -1083,7 +1083,6 @@ textarea{
 	line-height: 24px;
 	display: block;
 }
-
 /* -------------- page b-info -------------- */
 .b-info{
 	padding: 100px 0;
@@ -1158,4 +1157,112 @@ textarea{
 .b-info-item:hover:before{
 	transition: 0.3s;
 	width: 100%;
+}
+/* -------------- page b-about -------------- */
+.b-about{
+	background: #f9f9f9;
+	padding: 100px 0 150px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-about-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.b-about-left{
+	margin: 60px 165px 0 0;
+}	
+.b-about-left p{
+	color: #262626;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.btn-about{
+	width: 230px;
+	height: 60px;
+	background-color: #262626;
+	background-image: -webkit-linear-gradient(bottom, #d41d2b 0%, #eb212d 100%);
+	background-image: -o-linear-gradient(bottom, #d41d2b 0%, #eb212d 100%);
+	background-image: linear-gradient(to top, #d41d2b 0%, #eb212d 100%);
+	border-radius: 15px;
+	box-shadow: 0 10px 15px rgba(235, 33, 45, 0.3);
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	transition: 0.3s;
+}
+.btn-about:hover{
+	box-shadow: 0 25px 29px rgba(255, 0, 15, 0.3);
+	transition: 0.3s;
+}
+.btn-about:active{
+	box-shadow: 0 3px 29px rgba(255, 0, 15, 0.3);
+	transition: 0.3s;
+}
+.b-about-right{
+	width: 1010px;
+}
+.b-about-slider{
+	padding: 0 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-about-slider__item{
+	margin: 25px 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: 0.3s;
+	position: relative;
+	box-shadow: none;	
+	cursor: pointer;
+}
+.b-about-slider__item:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(38, 38, 38, 0.8);
+	opacity: 1;
+	visibility: visible;
+	transition: 0.3s;	
+}
+.b-about-slider__item img{
+	transition: 0.3s;
+}
+.b-about-slider__item.slick-current{
+	box-shadow: 0 10px 9px rgba(38, 38, 38, 0.3);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: 0.3s;
+	cursor: inherit;
+}
+.b-about-slider__item.slick-current:before{
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.b-arrow{
+	color: #ffffff;
+	font-size: 48px;
+	line-height: 52px;
+	font-weight: 300;	
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	margin: -26px 0 0 0;
+}
+.b-arrow__prev{
+	left: 50px;
+}
+.b-arrow__next{
+	right: 50px;
 }
