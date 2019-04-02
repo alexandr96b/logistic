@@ -546,8 +546,8 @@ textarea{
 	margin: 0 0 20px 0;
 }
 .b-main-form__top__ico{
-	background: url(../images/b-main-form__top__ico.png) no-repeat;
-	width: 49px;
+	background: url(../images/chat.svg) center no-repeat;
+	width: 60px;
 	height: 40px;
 	display: block;
 	margin: 0 auto 25px;
@@ -690,6 +690,7 @@ textarea{
 }
 .b-offers-item__img img{
 	margin: 0 auto 0;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
 }
 .b-offers-item__content{
 	position: relative;
@@ -775,6 +776,7 @@ textarea{
 }
 .b-price-right img{
 	max-width: inherit;
+	box-shadow: 0 10px 30px rgba(38, 38, 38, 0.3);
 }
 .b-price-btns{
 	display: flex;
@@ -925,4 +927,92 @@ textarea{
 }
 .b-prepack-right .btn-order{
 	margin: 70px 0 0 0;
+}
+/* -------------- page b-services -------------- */
+.b-services{
+	padding: 100px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../images/b-services-bg.jpg);
+}
+.b-services .b-title{
+	margin: 0;
+}
+.b-services .b-title-item{
+	color: #ffffff;
+}
+.b-title-text{
+	text-align: center;
+	margin: 0 0 70px 0;
+}
+.b-title-text p{
+	color: #bbb;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 25px 0 0 0;
+}
+.b-services-content{
+
+}
+.b-services-content .row{
+	justify-content: center;
+}
+.b-services-content .row > div{
+	margin-bottom: 80px;
+}
+.b-services-item{
+	background: #333;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+	height: 100%;
+	padding: 15px 0 25px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+.b-services-item span{
+	display: block;
+	text-align: center;
+	color: #eb212d;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+.b-services-item__img{
+	
+}
+.b-services-item__img img{
+	margin: 0 auto 0;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+.b-services-item p{
+	color: #bbb;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	margin: 30px 0 0 0;
+	padding: 0 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-services .btn-order{
+	margin: 0 auto 0;
+}
+.b-services-item:hover{
+	transition: 0.3s;
+	background: #bb1924;
+	box-shadow: 0 5px 25px rgba(235, 33, 45, 0.3);
+}
+.b-services-item:hover span{
+	color: #ffffff;
+	transition: 0.3s;
+}
+.b-services-item:hover p{
+	color: #ffffff;
+	transition: 0.3s;
 }
