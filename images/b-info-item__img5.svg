@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 513.2 513" style="enable-background:new 0 0 513.2 513;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EB212D;}
+	.st1{fill:#262626;}
+</style>
+<path class="st0" d="M504.6,384.5v-80h-38.5c-2-6.1-4.4-12-7.3-17.6l27.2-27.2l-56.6-56.6l-27.2,27.2c-5.6-2.8-11.5-5.3-17.6-7.3
+	v-38.5h-80V223c-6.1,2-12,4.4-17.6,7.3l-27.2-27.2l-56.6,56.6l27.2,27.2c-2.8,5.6-5.3,11.5-7.3,17.6h-38.5v80h38.5
+	c2,6.1,4.4,12,7.3,17.6l-27.2,27.2l56.6,56.6l27.2-27.2c5.6,2.8,11.5,5.3,17.6,7.3v38.5h80V466c6.1-2,12-4.4,17.6-7.3l27.2,27.2
+	l56.6-56.6l-27.2-27.2c2.8-5.6,5.3-11.5,7.3-17.6L504.6,384.5L504.6,384.5z M344.6,416.5c-39.8,0-72-32.2-72-72s32.2-72,72-72
+	s72,32.2,72,72S384.3,416.5,344.6,416.5z"/>
+<g>
+	<path class="st1" d="M409.9,390.7c9.6-13.6,14.7-29.5,14.7-46.2c0-44.1-35.9-80-80-80s-80,35.9-80,80s35.9,80,80,80
+		c20.4,0,39.8-7.7,54.7-21.6l-10.9-11.7c-11.9,11.2-27.4,17.3-43.8,17.3c-35.3,0-64-28.7-64-64s28.7-64,64-64s64,28.7,64,64
+		c0,13.3-4.1,26.1-11.7,37L409.9,390.7z"/>
+	<path class="st1" d="M312.6,344.5c0,17.6,14.4,32,32,32s32-14.4,32-32s-14.4-32-32-32S312.6,326.9,312.6,344.5z M360.6,344.5
+		c0,8.8-7.2,16-16,16s-16-7.2-16-16s7.2-16,16-16S360.6,335.7,360.6,344.5z"/>
+	<rect x="344.6" y="168.5" class="st1" width="16" height="16"/>
+	<path class="st1" d="M24.6,120.5h96v-96h224v128h16V8.5H109.3L8.6,109.2v395.3h296v-16h-280V120.5z M35.9,104.5l68.7-68.7v68.7
+		H35.9z"/>
+	<path class="st1" d="M200.6,200.5h-48v-32h-48v-32h-64v144h48h16h32h16h48V200.5z M88.6,264.5h-32v-112h32v16V264.5z M136.6,264.5
+		h-32v-80h32v16V264.5z M184.6,264.5h-32v-48h32V264.5z"/>
+	<rect x="40.6" y="296.5" class="st1" width="16" height="16"/>
+	<rect x="72.6" y="296.5" class="st1" width="96" height="16"/>
+	<rect x="40.6" y="328.5" class="st1" width="128" height="16"/>
+	<rect x="40.6" y="360.5" class="st1" width="128" height="16"/>
+	<rect x="40.6" y="392.5" class="st1" width="128" height="16"/>
+	<rect x="40.6" y="424.5" class="st1" width="96" height="16"/>
+	<rect x="152.6" y="424.5" class="st1" width="16" height="16"/>
+	<rect x="64.6" y="456.5" class="st1" width="16" height="16"/>
+	<rect x="96.6" y="456.5" class="st1" width="16" height="16"/>
+	<rect x="128.6" y="456.5" class="st1" width="16" height="16"/>
+	<rect x="136.6" y="40.5" class="st1" width="16" height="16"/>
+	<rect x="168.6" y="40.5" class="st1" width="160" height="16"/>
+	<rect x="312.6" y="104.5" class="st1" width="16" height="16"/>
+	<rect x="136.6" y="104.5" class="st1" width="160" height="16"/>
+	<rect x="136.6" y="72.5" class="st1" width="192" height="16"/>
+</g>
+</svg>
