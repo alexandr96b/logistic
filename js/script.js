@@ -46,6 +46,39 @@ $('.b-about-slider').slick({
   // instead of a settings object
 ]
 });
+$('.b-prepack-slider__big').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: false,
+  arrows: false,
+  asNavFor: '.b-prepack-slider__pager',
+  responsive: [
+  {
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
+});
 $('.b-prepack-slider__pager').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
