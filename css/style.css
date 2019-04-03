@@ -168,7 +168,7 @@ input{
 	color: #333;
 	font-size: 16px;
 	line-height: 18px;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;	
 	display: block;
 	margin: 35px auto 0;
@@ -1354,4 +1354,60 @@ textarea{
 	opacity:1;
 	visibility: visible;
 	transition: 0.3s;
+}
+/* -------------- page b-form -------------- */
+.b-form{
+	background: url(../images/form-bg.jpg) center top no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.b-form-wrap{
+	width: 750px;
+	margin: 0 auto 0;
+}
+.b-form-top{
+	text-align: center;
+	margin: 0 0 35px 0;
+}
+.b-form-top__ico{
+	width: 130px;
+	height: 130px;
+	background: #ffffff url(../images/support-2.svg) center no-repeat;
+	background-size: 63px;
+	box-shadow: 0 10px 15px rgba(38, 38, 38, 0.15);
+	border-radius: 100%;
+	margin: 0 auto 0;
+}
+.b-form-top b{
+	display: block;
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;	
+	margin: 15px 0;
+}
+.b-form-top span{
+	display: block;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;	
+}
+.b-form-top__row{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0 0 20px 0;
+}
+.b-form-top__row .b-input-text{
+	margin: 0 30px 0 0;
+}
+.b-form-top__row .b-input-text:last-child{
+	margin: 0;
+}
+.b-form-wrap .b-checkbox{
+	margin: 40px 0;
 }
