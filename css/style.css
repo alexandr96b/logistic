@@ -1411,8 +1411,6 @@ textarea{
 .b-form-wrap .b-checkbox{
 	margin: 40px 0;
 }
-
-
 /* -------------- page b-certificates -------------- */
 .b-certificates{
 	padding: 100px 0;
@@ -1459,4 +1457,72 @@ textarea{
 	opacity: 1;
 	visibility: visible;
 	transition: 0.3s;
+}
+/* -------------- page b-documents -------------- */
+.b-documents{
+	background: #f9f9f9;
+	padding: 100px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.b-documents-content{
+
+}
+.b-documents-item{
+	text-align: center;
+	background: #ffffff;
+	padding: 50px 0 45px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.b-documents-item:after{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 0px;
+	background: #ffffff;
+	transition: 0.3s;
+	opacity: 0;
+	visibility: hidden;
+}
+.b-documents-item:hover:after{
+	transition: 0.3s;
+	opacity: 1;
+	visibility: visible;
+	height: 10px;
+}
+.b-documents-item span{
+	display: block;
+	color: #262626;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;	
+	margin: 25px 0;
+}
+.b-documents-item__img{
+	width: 100px;
+	margin: 0 auto 0;
+}
+.b-documents-btn{
+	width: 160px;
+	height: 50px;
+	background-color: #eb212d;
+	background-image: -webkit-linear-gradient(bottom, #262626 0%, #333 100%);
+	background-image: -o-linear-gradient(bottom, #262626 0%, #333 100%);
+	background-image: linear-gradient(to top, #262626 0%, #333 100%);
+	border-radius: 15px;
+	box-shadow: 0 10px 15px rgba(38, 38, 38, 0.2);
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto 0;
 }
