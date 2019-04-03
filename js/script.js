@@ -8,6 +8,13 @@ $(".b-main-left__bottom a").click(function (event) {
     $('body,html').animate({scrollTop: top - header}, 700);
 });
 
+$(".b-menu-left a").click(function (event) {
+    event.preventDefault();
+    var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        header = $('.b-header').outerHeight();
+    $('body,html').animate({scrollTop: top - header}, 700);
+});
 
 $('.menu-icon').click(function(){
   $('.b-menu').toggleClass('active');
