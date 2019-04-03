@@ -29,7 +29,7 @@ $('.menu-close').click(function(){
   $('.b-menu').removeClass('active');
 });
 
-
+$(".modal1").fancybox();
 
 /*var $page = $('html, body');
 $('.btn-more[href*="#"]').click(function() {
@@ -39,10 +39,11 @@ $('.btn-more[href*="#"]').click(function() {
     return false;
 });
 
+
+*/
 $(".btn-scroll").click(function(){
   $('html, body').animate({scrollTop:0}, 'slow');
-});*/
-
+});
 
 var scrolledpx = parseInt($(window).scrollTop());
 $(window).scroll( function (){

@@ -388,6 +388,9 @@
 	.b-menu-left ul li{
 		margin: 0 0 13px 0;
 	}
+	#modal-form{
+		padding: 30px 15px 15px 15px;
+	}	
 }
 
 @media (max-width: 767px) {
@@ -592,6 +595,18 @@
 	.b-menu-left ul li p{
 		font-size: 14px;
 		line-height: 16px;
+	}
+	.b-form-top__row .b-input-wrap{
+		margin: 0 0 10px 0;
+	}
+	label.error{
+		margin: -9px 0 0 0;
+	}
+	.b-main-form form{
+		padding: 0;
+	}
+	#modal-form{
+		padding: 30px 15px 15px 15px;
 	}
 }
 
