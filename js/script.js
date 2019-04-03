@@ -1,5 +1,30 @@
 $(document).ready(function () {
 
+$(".btn-scroll").click(function(){
+  $('html, body').animate({scrollTop:0}, 'slow');
+});
+
+
+var scrolledpx = parseInt($(window).scrollTop());
+$(window).scroll( function (){
+
+    scrolledpx = parseInt($(window).scrollTop()); 
+
+    if(scrolledpx > 1530){
+        $('.btn-scroll').addClass('active');
+     } else if(scrolledpx < 1531){
+      $('.btn-scroll').removeClass('active');
+     }
+
+    if(scrolledpx > 830){
+        $('.b-header').addClass('active');
+     } else if(scrolledpx < 831){
+      $('.b-header').removeClass('active');
+     }
+
+  });
+
+
 $('.b-partners-slider').slick({
   slidesToShow: 6,
   slidesToScroll: 6,
