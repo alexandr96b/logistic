@@ -1245,13 +1245,16 @@ textarea{
 	transition: 0.3s;
 }
 .b-about-slider__item.slick-center{
-	box-shadow: 0 10px 9px rgba(38, 38, 38, 0.3);
+	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	transition: 0.3s;
 	cursor: inherit;
 	transform: scale(1);	
+}
+.b-about-slider__item.slick-center img{
+	box-shadow: 0 10px 9px rgba(38, 38, 38, 0.3);
 }
 .b-about-slider__item.slick-center:before{
 	opacity: 0;
@@ -1340,6 +1343,7 @@ textarea{
 	opacity: 0;
 	visibility: hidden;
 	transition: 0.3s;
+	margin: 0 auto 0;
 }
 .b-foto-slider__item__text b{
 	color: #ffffff;

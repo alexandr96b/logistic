@@ -37,22 +37,22 @@ $('.b-partners-slider').slick({
   {
     breakpoint: 1200,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToShow: 4,
+      slidesToScroll: 4
     }
   },
   {
     breakpoint: 992,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToShow: 3,
+      slidesToScroll: 3
     }
   },
   {
     breakpoint: 768,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToShow: 2,
+      slidesToScroll: 2
     }
   }
   // You can unslick at a given breakpoint now by adding:
@@ -113,6 +113,13 @@ $('.b-about-slider').slick({
   prevArrow: '<button class="b-arrow b-arrow__prev">←</button>',
   focusOnSelect: true,
   responsive: [
+  {
+    breakpoint: 1560,
+    settings: {
+      slidesToShow: 1,     
+      slidesToScroll: 1
+    }
+  },
   {
     breakpoint: 1200,
     settings: {
