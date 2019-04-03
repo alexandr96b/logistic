@@ -1980,9 +1980,42 @@ textarea{
 .fancybox-close-small{
 	top: 30px;
 	right: 30px;
+	outline: none;
 }
 
 
 #modal-article{
+	width: 700px;
+	padding: 15px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background: #ffffff;
 	display: none;
+}
+#modal-article b{
+	font-size: 24px;
+	line-height: 30px;
+	display: block;
+	margin: 0 0 30px 0;
+}
+#modal-article p{
+	color: #000000;
+	font-size: 16px;
+	line-height: 25px;
+}
+#modal-article ul li{
+	color: #000000;
+	font-size: 16px;
+	line-height: 25px;
+}
+#modal-article p span{
+	font-weight: 700;
+}
+#modal-article .fancybox-close-small{
+	top: 10px;
+	right: 10px;
+}
+#modal-article img{
+	margin: 10px 0;
 }

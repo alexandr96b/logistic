@@ -390,7 +390,10 @@
 	}
 	#modal-form{
 		padding: 30px 15px 15px 15px;
-	}	
+	}
+	#modal-callback{
+		padding: 30px 15px 15px 15px;
+	}		
 }
 
 @media (max-width: 767px) {
@@ -607,6 +610,12 @@
 	}
 	#modal-form{
 		padding: 30px 15px 15px 15px;
+	}
+	#modal-callback{
+		padding: 30px 15px 15px 15px;
+	}	
+	#modal-article{
+		width: auto;
 	}
 }
 
