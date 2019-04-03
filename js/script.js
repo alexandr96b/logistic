@@ -317,12 +317,12 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
 
-        center: new google.maps.LatLng(51.4020865, 30.61468031), // New York
+        center: new google.maps.LatLng(57.923140, 56.123019), // New York
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e8e8e8"},{"lightness":2}]},
-        {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#e8e8e8"},{"lightness":1}]},
+        styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#dbdbdb"},{"lightness":2}]},
+        {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#dbdbdb"},{"lightness":1}]},
         {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":2}]},
         {"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":2},{"weight":0.2}]},
         {"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":2}]},
@@ -344,12 +344,12 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({ 
-        position: new google.maps.LatLng(51.4020865, 30.61468031),
+        position: new google.maps.LatLng(57.920978, 56.151657),
         map: map,
         title: 'Snazzy!',
                 icon: {
-                    url: "images/metka.svg",
-                    scaledSize: new google.maps.Size(31, 43),
+                    url: "images/map.svg",
+                    scaledSize: new google.maps.Size(28, 40),
                     labelOrigin: new google.maps.Point(145, 25, 5),
                     origin: new google.maps.Point(0, 0),
                     anchor: new google.maps.Point(36, 49)           
