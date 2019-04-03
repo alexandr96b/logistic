@@ -1466,7 +1466,6 @@ textarea{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 .b-documents-content{
 
 }
@@ -1524,5 +1523,48 @@ textarea{
 	font-weight: 400;
 	text-transform: uppercase;
 	display: block;
+	margin: 0 auto 0;
+}
+
+/* -------------- page b-partners -------------- */
+.b-partners{
+	padding: 100px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.slick-dots{
+	padding: 0;
+	margin: 40px 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slick-dots li{
+	list-style: none;
+	margin: 0 10px 0 0;
+}
+.slick-dots li:last-child{
+	margin: 0;
+}
+.slick-dots li button{
+	width: 10px;
+	height: 10px;
+	background-color: #e0e0e0;
+	border-radius: 100%;	
+	text-indent: -99999px;
+	transition: 0.3s;
+}
+.slick-dots li.slick-active button{
+	background: darkgrey;
+	transition: 0.3s;
+}
+.b-partners-slider-item{
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+.b-partners-slider-item img{
 	margin: 0 auto 0;
 }
