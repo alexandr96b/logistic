@@ -446,7 +446,16 @@
 	.b-main{
 		overflow: hidden;
 	}
-	.b-main-right{
+	.b-main-container{
+		flex-direction: column-reverse;
+	}
+	.b-main-right {
+		height: 200px;
+		width: 100%;
+		background-position: center;
+		background-size: cover;
+	}
+	.b-main-right .b-main-form , .b-main-right .b-main-bottom__wrap{
 		display: none;
 	}
 	.b-main-left{
