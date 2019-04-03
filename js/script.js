@@ -8,6 +8,46 @@ $('.b-prepack-prev').on("click", function() {
     $('.b-prepack-slider__big').slick("slickPrev"); 
 })
 
+$('.b-foto-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: false,
+  centerMode: true,
+  variableWidth: true,
+  adaptiveHeight: true,
+  arrows: true,
+  centerPadding: '40px',
+  nextArrow: '<button class="b-arrow b-arrow__next">→</button>',
+  prevArrow: '<button class="b-arrow b-arrow__prev">←</button>',
+  focusOnSelect: true,
+  responsive: [
+  {
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
+});
+
 $('.b-about-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
